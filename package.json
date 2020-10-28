@@ -1,0 +1,34 @@
+{
+  "name": "abstract-flood",
+  "version": "1.0.0",
+  "description": "Abstract module for flooding network packets.",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "lru": "^3.1.0",
+    "protocol-buffers-encodings": "^1.1.1"
+  },
+  "devDependencies": {
+    "protocol-buffers": "^4.2.0",
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "build": "protocol-buffers schema.proto -o messages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/abstract-flood.git"
+  },
+  "keywords": [
+    "flood",
+    "network",
+    "broadcast"
+  ],
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/abstract-flood/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/abstract-flood#readme"
+}
